@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+
+    <div class="top-nav">
+        <h2>To-Do List Web App</h2>
+    </div>
+
+    <div class="toDoBoxleft">
+        <form id="todo-form">
+            <pre>
+        <input type="text"  id="todo-input"  placeholder="Title" required><br><br>
+        <textarea type="text" id="todo-textarea" placeholder="Description" required></textarea><br><br>
+        <button type="submit" id="btn">Save</button>
+    </form>
+    </pre>
+    </div>
+
+    <div class="toDoBoxRight">
+        <li id="right">Title</li>
+        <li id="right">Description</li>
+        <li>Delete</li>
+        <hr>
+    </div>
+    <ul id="todo-list"></ul>
+
+    <script src="./js/script.js"> </script>
+
+</body>
+
+</html>
